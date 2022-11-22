@@ -1,9 +1,24 @@
 const moduleName = 'swade-more-bennies';
 
+Hooks.once('init', () => {
+  // call this with: game.settings.get("swade-more-bennies", "restrictedMode")
+  game.settings.register(moduleName, "restrictedMode", {
+    name: 'Restricted Mode', // 
+    hint: 'This will remove the possibility for clients to choose their benny and leave them with the one you choose.', // 
+    scope: 'world',
+    config: true,
+    requiresReload: true,
+    type: Boolean,
+    default: false
+  });  
+});
+
 Hooks.once('diceSoNiceReady', (dice3d) => {
   const separator = `¤`;  
-  
-  /* Bennies List
+
+  // --------------------------------------------------
+  // Bennies List
+  /* 
   Boxing Glove
   Bullet
   Bullet - Animated   
@@ -32,7 +47,11 @@ Hooks.once('diceSoNiceReady', (dice3d) => {
   Skull  
   Ring - That One
   UFO  
+  Turtle - Ninja
+  Turtle - Shell
+  UFO
   */
+  
   const models = [
     {
       id: "benny-boxing_glove",
@@ -180,20 +199,85 @@ Hooks.once('diceSoNiceReady', (dice3d) => {
       fileName: 'one-ring.glb'      
     },    
     {
+      id: "benny-turtle-ninja",
+      name: 'Turtle - Ninja',
+      fileName: 'turtle_ninja.glb'
+    },    
+    {
+      id: "benny-turtle-shell",
+      name: 'Turtle - Shell',
+      fileName: 'turtle_shell.glb'
+    },    
+    {
       id: "benny-ufo",
       name: `${separator} UFO - Animated`,
       fileName: 'ufo.glb'      
     }
   ];
-  
-  for (let model of models) {
-    dice3d.addSystem({id: model.id, name: model.name }, false);
+ 
+  // --------------------------------------------------
+  // 
+  if (!game.settings.get("swade-more-bennies", "restrictedMode")) {
+    for (let model of models) {
+      dice3d.addSystem({id: model.id, name: model.name }, false);
+      
+      dice3d.addDicePreset({
+        type:"db",
+        system: model.id, 
+        modelFile: 'modules/' + moduleName + '/models/' + model.fileName    
+      });
+    }    
+  } else {
+    const choices = {};
+    for (const model of models) {
+      choices[model.id] = model.name;
+    }
     
-    dice3d.addDicePreset({
-      type:"db",
-      system: model.id, 
-      modelFile: 'modules/' + moduleName + '/models/' + model.fileName    
-    });
-  }
+    // Register Setting
+    game.settings.register(moduleName, 'selectedBenny', {
+      name: "Select a Benny",
+      hint: "Choose a Benny to use for this world.",
+      scope: "world",
+      config: true,
+      requiresReload: true,
+      type: String,
+      choices: choices,
+      default: "",
+      onChange: async (value) => {
+        const currentModelID = game.settings.get("swade-more-bennies", "selectedBenny")
+        const newModel = models.find((m) => m.id === currentModelID);
+        if (currentModelID) {
+          delete game.dice3d.DiceFactory.systems[currentModelID];
+        }
+        
+        // Add model
+        dice3d.addSystem({ id: newModel.id, name: newModel.name }, false);
+        dice3d.addDicePreset({
+          type: "db",
+          system: newModel.id,
+          modelFile: 'modules/' + moduleName + '/models/' + newModel.fileName
+        });
 
+        //DSN stores the user's selected preset as a flag. This clears it and sets it with the new one.
+        for (const user of game.users) {
+          await user.unsetFlag("dice-so-nice", "appearance.db");
+          await user.setFlag('dice-so-nice', 'appearance.db', { 'system': value });
+        }
+      }
+    });
+
+    // Get the currently selected model and register it.
+    const modelId = game.settings.get("swade-more-bennies", "selectedBenny");
+    if (modelId) {
+      const model = models.find((m) => m.id === modelId);
+      dice3d.addSystem({ id: model.id, name: model.name }, false);
+      dice3d.addDicePreset({
+        type: "db",
+        system: model.id,
+        modelFile: 'modules/' + moduleName + '/models/' + model.fileName
+      });
+    }
+    
+  } // END MAIN ELSE
+  
 });

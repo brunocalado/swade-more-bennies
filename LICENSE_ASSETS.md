@@ -69,3 +69,9 @@ https://sketchfab.com/3d-models/crystal-golem-heart-53d0e4d69acc413e99d27680cddd
 
 # Boxing Glove
 https://sketchfab.com/3d-models/boxing-glove-84424f446e7f4c3b8bf1c3204b581f28
+
+# Turtle
+https://sketchfab.com/3d-models/teenaje-mutant-ninja-turtle-chibi-d6ea7c9a89eb4979a0d7f0fddeb3f680
+
+# Turtle 2
+https://sketchfab.com/3d-models/pond-slider-shell-cb10872f402341619032489a4cdb6bc9

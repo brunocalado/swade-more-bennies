@@ -1,5 +1,5 @@
 # SWADE - More Bennies
-This module add new bennies models for **SWADE**.
+This module add new 3D bennies models for **SWADE**.
 
 ## Bennies
 **CLICK THE IMAGE TO WATCH THE VIDEO**
@@ -8,6 +8,7 @@ This module add new bennies models for **SWADE**.
 ## Features
 - Pick new 3D models for you bennies.
 - Each player can pick their favorite.
+- There is a **Restricted Mode** setting. You can make every client use the benny you pick.
 
 # Instalation
 You can install this module with this link: https://raw.githubusercontent.com/brunocalado/swade-more-bennies/main/module.json
@@ -22,6 +23,7 @@ You can install this module with this link: https://raw.githubusercontent.com/br
 
 # Acknowledges
 - @JDW#6422 
+- @Kristian Serrano#5077 
 
 # Changes
 You can see changes at [CHANGELOG](CHANGELOG.md).

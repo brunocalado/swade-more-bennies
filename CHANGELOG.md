@@ -1,3 +1,8 @@
+0.1.6
+- Restricted Mode by @Kristian Serrano#5077 
+- Turtle Ninja for BASS
+- Turtle Shell for BASS
+
 0.1.5
 - Crystal Heart 2
 - Boxing Glove
