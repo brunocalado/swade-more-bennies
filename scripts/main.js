@@ -37,6 +37,7 @@ Hooks.once('diceSoNiceReady', (dice3d) => {
   Helmet - World War
   Horseshoe
   Mushroom
+  Pizza
   POW
   Sci-Fi Card
   Shard - Blue
@@ -147,7 +148,12 @@ Hooks.once('diceSoNiceReady', (dice3d) => {
       id: "benny-mushroom",
       name: `${separator} Mushroom`,
       fileName: 'mushroom.glb'      
-    },    
+    },        
+    {
+      id: "benny-pizza",
+      name: `${separator} Pizza`,
+      fileName: 'pizza.glb'      
+    },     
     {
       id: "benny-pow",
       name: `${separator} POW`,

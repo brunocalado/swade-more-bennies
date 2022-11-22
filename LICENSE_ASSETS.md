@@ -75,3 +75,6 @@ https://sketchfab.com/3d-models/teenaje-mutant-ninja-turtle-chibi-d6ea7c9a89eb49
 
 # Turtle 2
 https://sketchfab.com/3d-models/pond-slider-shell-cb10872f402341619032489a4cdb6bc9
+
+# Pizza
+https://sketchfab.com/3d-models/pizza-5b19b3bb03ed4a0c846f208b708bf24c
