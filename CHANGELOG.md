@@ -1,3 +1,6 @@
+0.1.8
+- ghost_trap
+
 0.1.7
 - pizza
 

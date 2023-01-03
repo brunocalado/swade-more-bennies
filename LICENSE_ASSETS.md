@@ -78,3 +78,6 @@ https://sketchfab.com/3d-models/pond-slider-shell-cb10872f402341619032489a4cdb6b
 
 # Pizza
 https://sketchfab.com/3d-models/pizza-5b19b3bb03ed4a0c846f208b708bf24c
+
+# Ghost Trap
+https://sketchfab.com/3d-models/ghostbusters-ghost-trap-6518dedebb7d446780a99a1ca4ca2228

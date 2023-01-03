@@ -31,6 +31,7 @@ Hooks.once('diceSoNiceReady', (dice3d) => {
   Crystal Heart 2 - Animated  
   Dynamite
   Gear
+  Ghost Trap
   Goblin
   Grenade  
   Grenade 2
@@ -119,6 +120,11 @@ Hooks.once('diceSoNiceReady', (dice3d) => {
       name: `${separator} Gear`,
       fileName: 'gear.glb'      
     },
+    {
+      id: "benny-ghost_trap",
+      name: `${separator} Ghost Trap`,
+      fileName: 'ghost_trap.glb'      
+    },    
     {
       id: "benny-goblin",
       name: `${separator} Goblin`,
