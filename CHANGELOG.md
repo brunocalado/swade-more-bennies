@@ -1,3 +1,6 @@
+0.1.9
+- ghost_trap fix
+
 0.1.8
 - ghost_trap
 
