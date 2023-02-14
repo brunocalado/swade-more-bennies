@@ -47,6 +47,7 @@ Hooks.once('diceSoNiceReady', (dice3d) => {
   Shard - Pink 
   Shard - Yellow
   Skull  
+  SWPF - Sarenrae
   Ring - That One
   UFO  
   Turtle - Ninja
@@ -205,6 +206,11 @@ Hooks.once('diceSoNiceReady', (dice3d) => {
       name: `${separator} Skull`,
       fileName: 'skull.glb'      
     },   
+    {
+      id: "benny-swpf_sarenrae",
+      name: `${separator} SWPF - Sarenrae`,
+      fileName: 'swpf_sarenrae.glb'      
+    },           
     {
       id: "one-ring",
       name: `${separator} Ring - That One`,

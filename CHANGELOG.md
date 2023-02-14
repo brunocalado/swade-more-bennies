@@ -1,3 +1,6 @@
+0.2.0
+- swpf_sarenrae
+
 0.1.9
 - ghost_trap fix
 
