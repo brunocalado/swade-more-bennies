@@ -43,4 +43,4 @@ You can see changes at [CHANGELOG](CHANGELOG.md).
 [LICENSE](LICENSE.md)
 
 # Assets License
-[LICENSE](LICENSE-ASSETS.md)
+[LICENSE](LICENSE_ASSETS.md)
