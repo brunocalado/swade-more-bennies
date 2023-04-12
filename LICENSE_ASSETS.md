@@ -1,4 +1,4 @@
-# ==============================================
+===========================
 ## 3D 
 
 # Bullet 9 mm
@@ -92,6 +92,6 @@ This thing was created by Thingiverse user mordr3d, and is licensed under cc-nc.
 # lightsaber
 https://sketchfab.com/3d-models/darth-talons-lightsaber-196035c6cb27424e9b91e4ca22b87714#download
 
-# ==============================================
+===========================
 ## 2D
 swpf_thassilonian_lights uses paizo art https://pathfinderwiki.com/wiki/Thassilon
