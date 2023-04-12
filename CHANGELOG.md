@@ -1,3 +1,7 @@
+0.2.1
+- 3d lightsaber
+- 2d bennies
+
 0.2.0
 - swpf_sarenrae
 

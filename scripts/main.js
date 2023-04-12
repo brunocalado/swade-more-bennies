@@ -35,6 +35,7 @@ Hooks.once('diceSoNiceReady', (dice3d) => {
   Goblin
   Grenade  
   Grenade 2
+  Lightsaber
   Helmet - World War
   Horseshoe
   Mushroom
@@ -141,6 +142,11 @@ Hooks.once('diceSoNiceReady', (dice3d) => {
       name: `${separator} Grenade 2`,
       fileName: 'grenade2.glb'      
     },
+    {
+      id: "benny-lightsaber",
+      name: `${separator} Lightsaber`,
+      fileName: 'lightsaber.glb'      
+    },    
     {
       id: "benny-helmet-world-war",
       name: `${separator} Helmet - World War`,

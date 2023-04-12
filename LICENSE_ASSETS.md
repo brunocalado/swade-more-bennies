@@ -81,3 +81,10 @@ https://sketchfab.com/3d-models/pizza-5b19b3bb03ed4a0c846f208b708bf24c
 
 # Ghost Trap
 https://sketchfab.com/3d-models/ghostbusters-ghost-trap-6518dedebb7d446780a99a1ca4ca2228
+
+# Sarenrae
+Sarenrae symbol Pathfinder by mordr3d on Thingiverse: https://www.thingiverse.com/thing:2599943
+This thing was created by Thingiverse user mordr3d, and is licensed under cc-nc.
+
+# lightsaber
+https://sketchfab.com/3d-models/darth-talons-lightsaber-196035c6cb27424e9b91e4ca22b87714#download
