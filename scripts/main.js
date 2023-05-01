@@ -40,6 +40,7 @@ Hooks.once('diceSoNiceReady', (dice3d) => {
   Horseshoe
   Mushroom
   Pizza
+  Poker Chip
   POW
   Sci-Fi Card
   Shard - Blue
@@ -92,6 +93,11 @@ Hooks.once('diceSoNiceReady', (dice3d) => {
       name: `${separator} Cheese`,
       fileName: 'cheese.glb'      
     },    
+    {
+      id: "benny-poker_chip",
+      name: `${separator} Poker Chip`,
+      fileName: 'poker_chip.glb'      
+    },            
     {
       id: "benny-coin",
       name: `${separator} Coin`,
@@ -224,12 +230,12 @@ Hooks.once('diceSoNiceReady', (dice3d) => {
     },    
     {
       id: "benny-turtle-ninja",
-      name: 'Turtle - Ninja',
+      name: `${separator} Turtle - Ninja`,
       fileName: 'turtle_ninja.glb'
     },    
     {
       id: "benny-turtle-shell",
-      name: 'Turtle - Shell',
+      name: `${separator} Turtle - Shell`,
       fileName: 'turtle_shell.glb'
     },    
     {

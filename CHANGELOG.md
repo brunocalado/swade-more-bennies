@@ -1,3 +1,9 @@
+0.2.3
+- 3d card
+- 2d animated bennies
+- 2d static bennies
+- small fix 
+
 0.2.1
 - 3d lightsaber
 - 2d bennies

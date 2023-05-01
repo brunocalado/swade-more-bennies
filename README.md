@@ -10,6 +10,7 @@ This module add new 2D and 3D bennies models for **SWADE**.
 - Each player can pick their favorite 3D benny.
 - There is a **Restricted Mode** setting for 3D bennies. You can make every client use the 3D benny you pick.
 - You have 2D bennies for the character actor sheet.
+- You have 2D animated bennies for the character actor sheet.
 
 # Instalation
 You can install this module with this link: https://raw.githubusercontent.com/brunocalado/swade-more-bennies/main/module.json
@@ -31,6 +32,10 @@ You can install this module with this link: https://raw.githubusercontent.com/br
 <p align="center">
   <img width="500" src="docs/docs-2d-bennies.webp">
 </p>
+
+# Community
+- Do you have cool stuff to share? [Share it!](https://github.com/brunocalado/swade-more-bennies/issues)
+- Do you find out a bug? [Report it!](https://github.com/brunocalado/swade-more-bennies/issues)
 
 # Acknowledges
 - @JDW#6422 

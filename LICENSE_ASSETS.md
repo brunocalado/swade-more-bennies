@@ -92,10 +92,20 @@ This thing was created by Thingiverse user mordr3d, and is licensed under cc-nc.
 # lightsaber
 https://sketchfab.com/3d-models/darth-talons-lightsaber-196035c6cb27424e9b91e4ca22b87714#download
 
+# poker_chip
+https://sketchfab.com/3d-models/poker-chip-8a518196b4224a5f8b4ad2fc613416ba
+
 ===========================
 ## 2D
 - swpf_thassilonian_lights uses paizo art https://pathfinderwiki.com/wiki/Thassilon ¹
 
+
+===========================
+## Images
+- skull https://unsplash.com/license
+
+===========================
+## 
 1: Paizo Assets: This is a copyrighted image that has been released by Paizo Inc. as part of their Community Use Package or Community Use Policy.
 
 The copyright for it is owned by Paizo Inc. and is used with permission under their Community Use Policy. Other uses of this image, on this Wiki or elsewhere, may be copyright infringement.
