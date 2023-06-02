@@ -35,9 +35,10 @@ Hooks.once('diceSoNiceReady', (dice3d) => {
   Goblin
   Grenade  
   Grenade 2
-  Lightsaber
+  Halloween Pumpkin
   Helmet - World War
-  Horseshoe
+  Horseshoe  
+  Lightsaber
   Mushroom
   Pizza
   Poker Chip
@@ -55,6 +56,7 @@ Hooks.once('diceSoNiceReady', (dice3d) => {
   Turtle - Ninja
   Turtle - Shell
   UFO
+  Zombie
   */
   
   const models = [
@@ -149,9 +151,9 @@ Hooks.once('diceSoNiceReady', (dice3d) => {
       fileName: 'grenade2.glb'      
     },
     {
-      id: "benny-lightsaber",
-      name: `${separator} Lightsaber`,
-      fileName: 'lightsaber.glb'      
+      id: "benny-halloween-pumpkin",
+      name: `${separator} Halloween Pumpkin`,
+      fileName: 'halloween-pumpkin.glb'      
     },    
     {
       id: "benny-helmet-world-war",
@@ -163,6 +165,11 @@ Hooks.once('diceSoNiceReady', (dice3d) => {
       name: `${separator} Horseshoe`,
       fileName: 'horseshoe.glb'      
     },        
+    {
+      id: "benny-lightsaber",
+      name: `${separator} Lightsaber`,
+      fileName: 'lightsaber.glb'      
+    },     
     {
       id: "benny-mushroom",
       name: `${separator} Mushroom`,
@@ -242,7 +249,12 @@ Hooks.once('diceSoNiceReady', (dice3d) => {
       id: "benny-ufo",
       name: `${separator} UFO - Animated`,
       fileName: 'ufo.glb'      
-    }
+    },
+    {
+      id: "zombie",
+      name: `${separator} Zombie`,
+      fileName: 'zombie.glb'      
+    }    
   ];
  
   // --------------------------------------------------

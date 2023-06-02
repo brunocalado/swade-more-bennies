@@ -95,6 +95,12 @@ https://sketchfab.com/3d-models/darth-talons-lightsaber-196035c6cb27424e9b91e4ca
 # poker_chip
 https://sketchfab.com/3d-models/poker-chip-8a518196b4224a5f8b4ad2fc613416ba
 
+# Zombie
+https://sketchfab.com/3d-models/zombie-c3601a06fc3345d29fe0bbd329fe7541
+
+# halloween-pumpkin
+https://sketchfab.com/3d-models/halloween-pumpkin-low-poly-b0aef49e4b7e400c91cac3aa252c2dc4
+
 ===========================
 ## 2D
 - swpf_thassilonian_lights uses paizo art https://pathfinderwiki.com/wiki/Thassilon ¹

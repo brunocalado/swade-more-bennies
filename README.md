@@ -3,7 +3,8 @@ This module add new 2D and 3D bennies models for **SWADE**.
 
 ## Bennies
 **CLICK THE IMAGE TO WATCH THE VIDEO**
-[![Demonstration](docs/docs-thumbnail.webp)](https://youtu.be/k2E7kDZLmFk)
+[![Demonstration](docs/docs-thumbnail.webp)](https://www.youtube.com/watch?v=FlBttTbl9f4)
+Video Link: [https://www.youtube.com/watch?v=FlBttTbl9f4](https://www.youtube.com/watch?v=FlBttTbl9f4)
 
 ## Features
 - Pick new 3D models for you bennies.
@@ -20,7 +21,7 @@ You can install this module with this link: https://raw.githubusercontent.com/br
 - Go to Dice so Nice settings, click the bene (db) and pick one option.
 
 <p align="center">
-  <img width="500" src="docs/docs-dsn-settings.webp">
+  <img width="900" src="docs/docs-dsn-settings.webp">
 </p>
 
 # How To Set a 2D Benny

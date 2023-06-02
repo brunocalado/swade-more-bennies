@@ -1,3 +1,10 @@
+0.2.4
+- zombie 2D, 3D
+- 2D bennies
+- goblin improves + 2D
+- halloween-pumpkin
+- skull 2D
+
 0.2.3
 - 3d card
 - 2d animated bennies
