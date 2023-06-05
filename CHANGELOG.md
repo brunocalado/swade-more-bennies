@@ -1,3 +1,6 @@
+0.2.5
+- small fix
+
 0.2.4
 - zombie 2D, 3D
 - 2D bennies

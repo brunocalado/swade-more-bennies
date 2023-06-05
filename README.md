@@ -50,3 +50,6 @@ You can see changes at [CHANGELOG](CHANGELOG.md).
 
 # Assets License
 [LICENSE](LICENSE_ASSETS.md)
+
+# Mestre Digital
+About this module creator: https://sites.google.com/view/mestredigitalmodules
