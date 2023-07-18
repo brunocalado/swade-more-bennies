@@ -101,6 +101,9 @@ https://sketchfab.com/3d-models/zombie-c3601a06fc3345d29fe0bbd329fe7541
 # halloween-pumpkin
 https://sketchfab.com/3d-models/halloween-pumpkin-low-poly-b0aef49e4b7e400c91cac3aa252c2dc4
 
+# golden-snitch
+https://sketchfab.com/3d-models/golden-snitch-harry-potter-ef6d102242004670b2974f53dc6c77a1
+
 ===========================
 ## 2D
 - swpf_thassilonian_lights uses paizo art https://pathfinderwiki.com/wiki/Thassilon ¹

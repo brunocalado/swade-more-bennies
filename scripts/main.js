@@ -33,6 +33,7 @@ Hooks.once('diceSoNiceReady', (dice3d) => {
   Gear
   Ghost Trap
   Goblin
+  Golden Snitch
   Grenade  
   Grenade 2
   Halloween Pumpkin
@@ -140,6 +141,11 @@ Hooks.once('diceSoNiceReady', (dice3d) => {
       name: `${separator} Goblin`,
       fileName: 'goblin.glb'      
     },
+    {
+      id: "benny-golden-snitch",
+      name: `${separator} Golden Snitch`,
+      fileName: 'golden-snitch.glb'      
+    },	
     {
       id: "benny-grenade",
       name: `${separator} Grenade`,

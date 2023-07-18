@@ -1,3 +1,6 @@
+0.2.6
+- golden snitch
+
 0.2.5
 - small fix
 
