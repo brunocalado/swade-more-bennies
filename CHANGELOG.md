@@ -1,3 +1,6 @@
+0.2.7
+- sihedron1
+
 0.2.6
 - golden snitch
 
