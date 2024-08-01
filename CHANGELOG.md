@@ -1,3 +1,6 @@
+0.2.9
+- DsN v12 groups
+
 0.2.8
 - v12 bump
 

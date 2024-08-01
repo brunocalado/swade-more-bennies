@@ -14,8 +14,6 @@ Hooks.once('init', () => {
 });
 
 Hooks.once('diceSoNiceReady', (dice3d) => {
-  const separator = `¤`;  
-
   // --------------------------------------------------
   // Bennies List
   /* 
@@ -64,207 +62,207 @@ Hooks.once('diceSoNiceReady', (dice3d) => {
   const models = [
     {
       id: "benny-boxing_glove",
-      name: `${separator}  Boxing Glove`,
+      name: `Boxing Glove`,
       fileName: 'boxing_glove.glb'      
     },    
     {
       id: "benny-bomb",
-      name: `${separator} Bomb - Animated`,
+      name: `Bomb - Animated`,
       fileName: 'bomb.glb'      
     },  
     {
       id: "benny-bullet",
-      name: `${separator} Bullet`,
+      name: `Bullet`,
       fileName: 'bullet.glb'      
     },
     {
       id: "benny-animated-bullet",
-      name: `${separator} Bullet - Animated`,
+      name: `Bullet - Animated`,
       fileName: 'bullet_animated.glb'      
     },
     {
       id: "benny-bullet-case",
-      name: `${separator} Bullet Case`,
+      name: `Bullet Case`,
       fileName: 'bullet_case.glb'      
     },
     {
       id: "benny-capybara",
-      name: `${separator} Capybara`,
+      name: `Capybara`,
       fileName: 'capybara.glb'      
     },        
     {
       id: "benny-cheese",
-      name: `${separator} Cheese`,
+      name: `Cheese`,
       fileName: 'cheese.glb'      
     },    
     {
       id: "benny-poker_chip",
-      name: `${separator} Poker Chip`,
+      name: `Poker Chip`,
       fileName: 'poker_chip.glb'      
     },            
     {
       id: "benny-coin",
-      name: `${separator} Coin`,
+      name: `Coin`,
       fileName: 'coin.glb'      
     },    
     {
       id: "benny-crystal-heart",
-      name: `${separator} Crystal Heart`,
+      name: `Crystal Heart`,
       fileName: 'crystal_heart.glb'      
     },
     {
       id: "benny-crystal_heart-animated",
-      name: `${separator} Crystal Heart - Animated`,
+      name: `Crystal Heart - Animated`,
       fileName: 'crystal_heart_animated.glb'      
     },
     {
       id: "benny-crystal_heart2-animated",
-      name: `${separator} Crystal Heart 2 - Animated`,
+      name: `Crystal Heart 2 - Animated`,
       fileName: 'crystal_heart_2.glb'      
     },    
     {
       id: "benny-dynamite",
-      name: `${separator} Dynamite`,
+      name: `Dynamite`,
       fileName: 'dynamite.glb'      
     },    
     {
       id: "benny-gear",
-      name: `${separator} Gear`,
+      name: `Gear`,
       fileName: 'gear.glb'      
     },
     {
       id: "benny-ghost_trap",
-      name: `${separator} Ghost Trap`,
+      name: `Ghost Trap`,
       fileName: 'ghost_trap.glb'      
     },    
     {
       id: "benny-goblin",
-      name: `${separator} Goblin`,
+      name: `Goblin`,
       fileName: 'goblin.glb'      
     },
     {
       id: "benny-golden-snitch",
-      name: `${separator} Golden Snitch`,
+      name: `Golden Snitch`,
       fileName: 'golden-snitch.glb'      
     },	
     {
       id: "benny-grenade",
-      name: `${separator} Grenade`,
+      name: `Grenade`,
       fileName: 'grenade.glb'      
     },
     {
       id: "benny-grenade2",
-      name: `${separator} Grenade 2`,
+      name: `Grenade 2`,
       fileName: 'grenade2.glb'      
     },
     {
       id: "benny-halloween-pumpkin",
-      name: `${separator} Halloween Pumpkin`,
+      name: `Halloween Pumpkin`,
       fileName: 'halloween-pumpkin.glb'      
     },    
     {
       id: "benny-helmet-world-war",
-      name: `${separator} Helmet - World War`,
+      name: `Helmet - World War`,
       fileName: 'helmet.glb'      
     },    
     {
       id: "benny-horseshoe",
-      name: `${separator} Horseshoe`,
+      name: `Horseshoe`,
       fileName: 'horseshoe.glb'      
     },        
     {
       id: "benny-lightsaber",
-      name: `${separator} Lightsaber`,
+      name: `Lightsaber`,
       fileName: 'lightsaber.glb'      
     },     
     {
       id: "benny-mushroom",
-      name: `${separator} Mushroom`,
+      name: `Mushroom`,
       fileName: 'mushroom.glb'      
     },        
     {
       id: "benny-pizza",
-      name: `${separator} Pizza`,
+      name: `Pizza`,
       fileName: 'pizza.glb'      
     },     
     {
       id: "benny-pow",
-      name: `${separator} POW`,
+      name: `POW`,
       fileName: 'pow.glb'      
     },    
     {
       id: "benny-scifi-card",
-      name: `${separator} Sci-Fi Card`,
+      name: `Sci-Fi Card`,
       fileName: 'scifi_card.glb'      
     },
     {
       id: "benny-grenade2",
-      name: `${separator} Grenade 2`,
+      name: `Grenade 2`,
       fileName: 'grenade2.glb'      
     },
     {
       id: "benny-shard-pink",
-      name: `${separator} Shard - Pink`,
+      name: `Shard - Pink`,
       fileName: 'shard_pink.glb'      
     },
     {
       id: "benny-shard-blue",
-      name: `${separator} Shard - Blue`,
+      name: `Shard - Blue`,
       fileName: 'shard_blue.glb'      
     },
     {
       id: "benny-shard-dark-blue",
-      name: `${separator} Shard - Dark Blue`,
+      name: `Shard - Dark Blue`,
       fileName: 'shard_dark_blue.glb'      
     },
     {
       id: "benny-shard-yellow",
-      name: `${separator} Shard - Yellow`,
+      name: `Shard - Yellow`,
       fileName: 'shard_yellow.glb'      
     },
     {
       id: "benny-shard-green",
-      name: `${separator} Shard - Green`,
+      name: `Shard - Green`,
       fileName: 'shard_green.glb'      
     },           
     {
       id: "benny-skull",
-      name: `${separator} Skull`,
+      name: `Skull`,
       fileName: 'skull.glb'      
     },   
     {
       id: "benny-swpf_sarenrae",
-      name: `${separator} SWPF - Sarenrae`,
+      name: `SWPF - Sarenrae`,
       fileName: 'swpf_sarenrae.glb'      
     },    
     {
       id: "benny-swpf_thassilonian_3d_1",
-      name: `${separator} SWPF - Sihedron`,
+      name: `SWPF - Sihedron`,
       fileName: 'swpf_thassilonian_3d_1.glb'      
     }, 	
     {
       id: "one-ring",
-      name: `${separator} Ring - That One`,
+      name: `Ring - That One`,
       fileName: 'one-ring.glb'      
     },    
     {
       id: "benny-turtle-ninja",
-      name: `${separator} Turtle - Ninja`,
+      name: `Turtle - Ninja`,
       fileName: 'turtle_ninja.glb'
     },    
     {
       id: "benny-turtle-shell",
-      name: `${separator} Turtle - Shell`,
+      name: `Turtle - Shell`,
       fileName: 'turtle_shell.glb'
     },    
     {
       id: "benny-ufo",
-      name: `${separator} UFO - Animated`,
+      name: `UFO - Animated`,
       fileName: 'ufo.glb'      
     },
     {
       id: "zombie",
-      name: `${separator} Zombie`,
+      name: `Zombie`,
       fileName: 'zombie.glb'      
     }    
   ];
@@ -273,7 +271,7 @@ Hooks.once('diceSoNiceReady', (dice3d) => {
   // 
   if (!game.settings.get("swade-more-bennies", "restrictedMode")) {
     for (let model of models) {
-      dice3d.addSystem({id: model.id, name: model.name }, false);
+      dice3d.addSystem({id: model.id, name: model.name, group: "More Bennies" }, false);
       
       dice3d.addDicePreset({
         type:"db",

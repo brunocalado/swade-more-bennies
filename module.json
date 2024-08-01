@@ -3,10 +3,10 @@
   "title": "More Bennies - SWADE",
   "description": "Extra 2D and 3D Benes for SWADE.",
   
-  "version": "0.2.8",
+  "version": "0.2.9",
   
   "compatibility": {
-    "minimum": "10",
+    "minimum": "12",
     "verified": "12"
   },
   
