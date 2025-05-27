@@ -1,3 +1,6 @@
+0.3.1
+- v13 manifest update
+
 0.2.9
 - DsN v12 groups
 
