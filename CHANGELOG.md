@@ -1,3 +1,15 @@
+0.3.3
+
+- [Fixed] Bennies not appearing in Dice So Nice settings and 3D model not showing when spending a benny
+- [Fixed] Duplicate "Grenade 2" entry in the models list
+- [Fixed] Restricted mode: systems.delete() now used instead of delete operator on Map
+- [Fixed] Added shape "d2" as explicit fallback parameter to addDicePreset for robustness
+- [Fixed] Added per-model error handling so a single failure does not abort all registrations
+
+0.3.2
+
+- v14 
+
 0.3.1
 - v13 manifest update
 
