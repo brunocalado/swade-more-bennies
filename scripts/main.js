@@ -73,14 +73,11 @@ function _registerAllBennies(dice3d, models) {
   for (const model of models) {
     try {
       dice3d.addSystem({ id: model.id, name: model.name, group: "More Bennies" }, "default");
-      dice3d.addDicePreset(
-        {
-          type: "db",
-          system: model.id,
-          modelFile: `modules/${MODULE_ID}/models/${model.fileName}`
-        },
-        "d2"
-      );
+      dice3d.addDicePreset({
+        type: "db",
+        system: model.id,
+        modelFile: `modules/${MODULE_ID}/models/${model.fileName}`
+      });
     } catch (err) {
       console.error(`[${MODULE_ID}] Failed to register benny "${model.id}":`, err);
     }
@@ -119,14 +116,11 @@ function _registerRestrictedMode(dice3d, models) {
 
       try {
         dice3d.addSystem({ id: newModel.id, name: newModel.name, group: "More Bennies" }, "default");
-        dice3d.addDicePreset(
-          {
-            type: "db",
-            system: newModel.id,
-            modelFile: `modules/${MODULE_ID}/models/${newModel.fileName}`
-          },
-          "d2"
-        );
+        dice3d.addDicePreset({
+          type: "db",
+          system: newModel.id,
+          modelFile: `modules/${MODULE_ID}/models/${newModel.fileName}`
+        });
       } catch (err) {
         console.error(`[${MODULE_ID}] Failed to register restricted benny "${newModel.id}":`, err);
         return;
@@ -148,14 +142,11 @@ function _registerRestrictedMode(dice3d, models) {
 
   try {
     dice3d.addSystem({ id: model.id, name: model.name, group: "More Bennies" }, "default");
-    dice3d.addDicePreset(
-      {
-        type: "db",
-        system: model.id,
-        modelFile: `modules/${MODULE_ID}/models/${model.fileName}`
-      },
-      "d2"
-    );
+    dice3d.addDicePreset({
+      type: "db",
+      system: model.id,
+      modelFile: `modules/${MODULE_ID}/models/${model.fileName}`
+    });
   } catch (err) {
     console.error(`[${MODULE_ID}] Failed to register restricted benny "${model.id}":`, err);
   }
